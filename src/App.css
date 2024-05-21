@@ -1,0 +1,60 @@
+:root {
+  --gradient-bg: linear-gradient(90deg, #f87516 0%, #5e11ff 50%);
+}
+
+* {
+  font-family: "Outfit", "Sora";
+}
+body {
+  background-color: #0e0f1a;
+}
+.body-scrollable {
+  height: calc(100vh - 54px);
+  overflow-y: scroll;
+}
+
+/* Header CSS */
+
+/* Hero CSS */
+.purchaseButton:hover {
+  border: 1px solid white;
+}
+
+.gradientText {
+  background: var(--gradient-bg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.reviewsAndScore {
+  color: white;
+  font-weight: 500;
+}
+
+.gradBg {
+  background: var(--gradient-bg);
+}
+
+/* Section CSS */
+.imgCard {
+  border: 1px 0 1px 1px solid rgb(76, 74, 74);
+  border-radius: 19px;
+  padding-left: 30px;
+  padding-top: 40px;
+  height: 600px;
+  width: 600px;
+  background: linear-gradient(#0e0720 0%, #211a31 100%);
+}
+
+/* Support CSS */
+.gradientBg {
+  background: linear-gradient(#0e0720 0%, #211a31 100%);
+  border: 1px solid rgb(76, 74, 74);
+  border-radius: 19px;
+}
+
+.card1 {
+  background: linear-gradient(#0e0720 0%, #211a31 100%);
+  border: 1px solid rgb(76, 74, 74);
+  border-radius: 19px;
+  width: 420px;
+}
